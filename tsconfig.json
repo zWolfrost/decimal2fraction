@@ -1,0 +1,11 @@
+{
+  "files": ["src/decimal2fraction.ts"],
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES6",
+    "outDir": "./dist",
+    "strict": true,
+    "declaration": true,
+    "declarationMap": true
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "decimal2fraction",
+  "version": "1.0.0",
+  "description": "A node.js typescript function to convert any decimal number to its respective fraction.",
+  "main": "dist/decimal2fraction.js",
+  "types": "dist/decimal2fraction.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zWolfrost/decimal2fraction.git"
+  },
+  "author": "zWolfrost",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zWolfrost/decimal2fraction/issues"
+  },
+  "homepage": "https://github.com/zWolfrost/decimal2fraction#readme",
+  "keywords": [
+    "decimal",
+    "fraction",
+    "convert",
+    "node",
+    "nodejs"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.5.7"
+  }
+}
